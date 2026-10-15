@@ -5,6 +5,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
     // Cloudflare Pages serves static files; responsive variants are produced
     // at build time by scripts/generate-image-variants.mjs instead.
